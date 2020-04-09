@@ -1,5 +1,6 @@
 package com.training.pom;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,6 +23,9 @@ public class LoginPOM {
 	@FindBy(id="form-login_submitAuth")
 	private WebElement loginBtn; 
 	
+	@FindBy(xpath="//div[starts-with(@class,'alert')]/button")
+	private WebElement closeAlertBtn; 
+	
 	public void sendUserName(String userName) {
 		this.userName.clear();
 		this.userName.sendKeys(userName);
@@ -36,6 +40,15 @@ public class LoginPOM {
 		this.loginBtn.click(); 
 	}
 	
+	public void clickCloseAlertBtn(){
+		this.closeAlertBtn.click();
+	}
+	
+	public void scroll(){
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight)"); 
+		
+	}
 	
     public boolean LoginUser(String UserID,String Password)
     {
