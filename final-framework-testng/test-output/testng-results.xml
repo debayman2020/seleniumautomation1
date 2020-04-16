@@ -1,29 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56777" started-at="2020-04-09T14:38:05Z" finished-at="2020-04-09T14:39:02Z">
+  <suite name="Default suite" duration-ms="139251" started-at="2020-04-16T08:11:35Z" finished-at="2020-04-16T08:13:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56777" started-at="2020-04-09T14:38:05Z" finished-at="2020-04-09T14:39:02Z">
-      <class name="com.training.sanity.tests.Testcase56">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Testcase56@ea4a92b]" name="setUpBeforeClass" is-config="true" duration-ms="11" started-at="2020-04-09T20:08:05Z" finished-at="2020-04-09T20:08:05Z">
+    <test name="Default test" duration-ms="139251" started-at="2020-04-16T08:11:35Z" finished-at="2020-04-16T08:13:54Z">
+      <class name="com.training.sanity.tests.Testcase85">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2020-04-16T13:41:35Z" finished-at="2020-04-16T13:41:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Testcase56@ea4a92b]" name="setUp" is-config="true" duration-ms="21468" started-at="2020-04-09T20:08:05Z" finished-at="2020-04-09T20:08:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="setUp" is-config="true" duration-ms="15713" started-at="2020-04-16T13:41:35Z" finished-at="2020-04-16T13:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="mainTest()[pri:0, instance:com.training.sanity.tests.Testcase56@ea4a92b]" name="mainTest" duration-ms="34286" started-at="2020-04-09T20:08:26Z" finished-at="2020-04-09T20:09:01Z">
+        <test-method status="PASS" signature="user(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="user" duration-ms="19004" started-at="2020-04-16T13:41:51Z" data-provider="TestData" finished-at="2020-04-16T13:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1manzoor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mehadi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manzoor@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2manzoor]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Testcase56@ea4a92b]" name="tearDown" is-config="true" duration-ms="1001" started-at="2020-04-09T20:09:01Z" finished-at="2020-04-09T20:09:02Z">
+        </test-method> <!-- user -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="tearDown" is-config="true" duration-ms="1815" started-at="2020-04-16T13:42:10Z" finished-at="2020-04-16T13:42:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Testcase56 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="setUp" is-config="true" duration-ms="14829" started-at="2020-04-16T13:42:12Z" finished-at="2020-04-16T13:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="user(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="user" duration-ms="18616" started-at="2020-04-16T13:42:26Z" data-provider="TestData" finished-at="2020-04-16T13:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hales]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alex@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543211]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2alex]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[alex]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="tearDown" is-config="true" duration-ms="1804" started-at="2020-04-16T13:42:45Z" finished-at="2020-04-16T13:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="setUp" is-config="true" duration-ms="14051" started-at="2020-04-16T13:42:47Z" finished-at="2020-04-16T13:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="user(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="user" duration-ms="18011" started-at="2020-04-16T13:43:01Z" data-provider="TestData" finished-at="2020-04-16T13:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1george]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bush]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[george@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2george]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[george]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="tearDown" is-config="true" duration-ms="1827" started-at="2020-04-16T13:43:19Z" finished-at="2020-04-16T13:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="setUp" is-config="true" duration-ms="13998" started-at="2020-04-16T13:43:21Z" finished-at="2020-04-16T13:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="user(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="user" duration-ms="17563" started-at="2020-04-16T13:43:35Z" data-provider="TestData" finished-at="2020-04-16T13:43:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1mark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[angel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mark@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543213]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2mark]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mark]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Testcase85@47f37ef1]" name="tearDown" is-config="true" duration-ms="1805" started-at="2020-04-16T13:43:52Z" finished-at="2020-04-16T13:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.Testcase85 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
